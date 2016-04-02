@@ -1,0 +1,15 @@
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  lol = log --pretty=oneline --abbrev-commit --source
+  follow = log --follow
+[user]
+	email = shimian.zhang@gmail.com
+	name = samzhang111
+[push]
+	default = matching
